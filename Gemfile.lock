@@ -99,6 +99,10 @@ GEM
       railties (>= 4.1.0, < 6.0)
       responders
       warden (~> 1.2.3)
+    dotenv (2.5.0)
+    dotenv-rails (2.5.0)
+      dotenv (= 2.5.0)
+      railties (>= 3.2, < 6.0)
     draper (3.0.1)
       actionpack (~> 5.0)
       activemodel (~> 5.0)
@@ -116,6 +120,7 @@ GEM
     has_scope (0.7.2)
       actionpack (>= 4.1)
       activesupport (>= 4.1)
+    hiredis (0.6.1)
     i18n (1.1.0)
       concurrent-ruby (~> 1.0)
     inherited_resources (1.9.0)
@@ -205,6 +210,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
+    redis (4.0.2)
     request_store (1.4.1)
       rack (>= 1.4)
     responders (2.4.0)
@@ -274,12 +280,15 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   devise
+  dotenv-rails
   draper
+  hiredis
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.11)
   pundit
   rails (~> 5.2.1)
+  redis
   sass-rails (~> 5.0)
   selenium-webdriver
   spring

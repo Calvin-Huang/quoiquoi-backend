@@ -69,3 +69,8 @@ gem 'devise'
 gem 'cancan' # or cancancan
 gem 'draper'
 gem 'pundit'
+
+gem 'redis'
+gem 'hiredis'
+
+gem 'dotenv-rails'
