@@ -36,6 +36,8 @@ GEM
       ransack (>= 1.8.7)
       sass (~> 3.1)
       sprockets (< 4.1)
+    activeadmin-sortable (0.0.3)
+      activeadmin (>= 0.4)
     activejob (5.2.1)
       activesupport (= 5.2.1)
       globalid (>= 0.3.6)
@@ -267,6 +269,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin
+  activeadmin-sortable
   bootsnap (>= 1.1.0)
   byebug
   cancan

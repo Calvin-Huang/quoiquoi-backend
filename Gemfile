@@ -63,6 +63,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # ActiveAdmin module
 gem 'activeadmin'
+gem 'activeadmin-sortable'
 
 # Plus integrations with:
 gem 'devise'
