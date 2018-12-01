@@ -1,0 +1,10 @@
+zh-TW:
+  activerecord:
+    errors:
+      messages:
+        record_invalid: '不合法輸入'
+  time:
+    formats:
+      default: '%Y/%m/%d'
+      long: '%Y年%m月%d日'
+      short: '%m/%d'
